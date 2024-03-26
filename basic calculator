@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>sum of two number</title>
+    </head>
+    <body>
+        <input id="n1" value="3">
+        <input id="n2" value="3">
+        <h2>Ans:</h2>
+        <p id="cal"></p>
+        <button onclick="add()">ADD</button>
+        <button onclick="sub()">SUB</button>
+        <button onclick="mul()">MUL</button>
+        <button onclick="div()">DIV</button>
+        <script>
+            var number1=document.getElementById("n1")
+            var number2=document.getElementById("n2")
+            var cal=document.getElementById("cal")
+            var q1=number1.value
+            var q2=number2.value         
+            function add()
+            {
+                var total=Number(q1)+Number(q2)
+                cal.textContent=total
+            }
+            function sub()
+            {
+                var total=Number(q1)-Number(q2)
+                cal.textContent=total
+            }
+            function mul()
+            {
+                var total=Number(q1)*Number(q2)
+                cal.textContent=total
+            }
+            function div()
+            {
+                var total=Number(q1)/Number(q2)
+                cal.textContent=total
+            }
+
+        </script>
+    </body>
+</html>
