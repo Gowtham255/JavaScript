@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <button id="btn" onclick="change()"><h2>change color</h2></button>
+        <style>
+            button{
+                height: 60px;
+                width: 200px;
+            }
+        </style>
+        <script>
+            function change(){
+                document.getElementById("btn").style.backgroundColor = "red";
+            }
+        </script>
+    </body>
+</html>
