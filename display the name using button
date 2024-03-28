@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <h1 id="name">Display Name</h1>
+        <button id="btn1" onclick="change1()"><h2>Gowtham</h2></button>
+        <button id="btn2" onclick="change2()"><h2>Kavin</h2></button>
+        <button id="btn3" onclick="change3()"><h2>Ranjith</h2></button>
+        <style>
+            button{
+                height: 60px;
+                width: 200px;
+                background-color: aquamarine;
+            }
+        </style>
+        <script>
+            function change1(){
+                let ch=document.getElementById("name")
+                ch.textContent="Gowtham"
+            }
+            function change2(){
+                let ch=document.getElementById("name")
+                ch.textContent="kavin"
+            }
+            function change3(){
+                let ch=document.getElementById("name")
+                ch.textContent="Ranjith"
+            }
+        </script>
+    </body>
+</html>
