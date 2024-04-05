@@ -1,0 +1,8 @@
+n="123dfdf"
+c=Number(n);
+if (Number.isInteger(c)==true){
+console.log("true")
+}
+else{
+  console.log("false")
+}
