@@ -1,0 +1,8 @@
+var n=7;
+var s=0,i;
+for(i=1;s<100;i++){
+  s=(i*n);
+  if(s<100){
+  console.log(s);
+  }
+}
