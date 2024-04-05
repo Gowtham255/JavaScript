@@ -1,0 +1,15 @@
+var s1="upGrad";
+var new_string=0;
+const letters = s1.split("");
+for(i=0;i<letters.length;i++){
+    if(letters[i]==letters[i].toLowerCase()){
+       new_string=new_string+letters[i].toUpperCase()
+    }
+    if(letters[i]==letters[i].toUpperCase()){
+        new_string=new_string+letters[i].toLowerCase()
+    }
+}
+new_string=new_string.split("")
+delete new_string[0];
+new_string=new_string.join("")
+console.log(new_string)
